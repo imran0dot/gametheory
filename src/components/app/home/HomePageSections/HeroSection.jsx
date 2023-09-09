@@ -1,7 +1,6 @@
 import background from '../../../../assets/background.svg'
 
 const HeroSection = () => {
-    console.log(background)
     return (
 
         <div style={{ backgroundImage: `url(${background})` }} className="hero min-h-[70vh] bg-base-200">
