@@ -8,7 +8,7 @@ const LoginPage = () => {
     const navigate = useNavigate();
     const userCheck = user();
     const location = useLocation();
-    const navigateurl = location.state.from || "/"
+    const navigateurl = location?.state?.from || "/"
 
     const handleForm = (e) => {
         e.preventDefault();
