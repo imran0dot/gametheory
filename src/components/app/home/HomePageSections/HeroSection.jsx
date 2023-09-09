@@ -9,7 +9,7 @@ const HeroSection = () => {
                 <div className="">
                     <h1 className="text-6xl md:text-8xl font-bold">Crafting a Beer Experience</h1>
                     <p className="py-6 text-2xl md:text-3xl font-bold">Showcasing your skills in React.js, API integration, authentication, routing, styling, and deployment through a beer-related applicatio.</p>
-                    <Link to="/data" className="btn btn-outline">Shop</Link>
+                    <Link to="/shop" className="btn btn-outline">Shop</Link>
                 </div>
             </div>
         </div>

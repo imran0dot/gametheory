@@ -18,7 +18,7 @@ export const router = createBrowserRouter([
             element: <LoginPage />
         },
         {
-            path: "/data",
+            path: "/shop",
             element: <PrivateRoute><DataPage /></PrivateRoute>
         },
 
