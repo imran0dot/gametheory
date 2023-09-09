@@ -5,7 +5,7 @@ const HeaderSection = () => {
         <div>
             <div className="navbar bg-base-100">
                 <div className="flex-1">
-                    <a className="btn btn-ghost normal-case text-3xl">GOOD Game</a>
+                    <Link to="/" className="btn btn-ghost normal-case text-3xl">GOOD Game</Link>
                 </div>
                 <div className="flex-none">
                     <ul className="menu menu-horizontal px-1">

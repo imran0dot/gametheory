@@ -2,6 +2,8 @@ import { createBrowserRouter } from "react-router-dom";
 import App from "./App";
 import HomePage from "./components/app/home/HomePage";
 import LoginPage from "./components/app/login/LoginPage";
+import DataPage from "./components/app/data/dataPage";
+import PrivateRoute from "./components/providers/PrivateRoute";
 
 export const router = createBrowserRouter([
     {
@@ -14,8 +16,13 @@ export const router = createBrowserRouter([
         {
             path: "/login",
             element: <LoginPage />
-        }
-    
-    ]
+        },
+        {
+            path: "/data",
+            element: <PrivateRoute><DataPage /></PrivateRoute>
+        },
+
+
+        ]
     }
 ]);

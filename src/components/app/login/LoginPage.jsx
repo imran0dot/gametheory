@@ -1,12 +1,14 @@
 import { useContext } from "react";
 import { AuthContext } from "../../providers/authProviders";
-import { useNavigate, Navigate  } from "react-router-dom";
+import { useNavigate, Navigate, useLocation  } from "react-router-dom";
 
 const LoginPage = () => {
 
     const { fakeAuthoentication, user } = useContext(AuthContext);
     const navigate = useNavigate();
     const userCheck = user();
+    const location = useLocation();
+    const navigateurl = location.state.from || "/"
 
     const handleForm = (e) => {
         e.preventDefault();
@@ -17,7 +19,7 @@ const LoginPage = () => {
         }
         fakeAuthoentication(data).then(res => {
             if(res){
-                navigate('/');
+                navigate(navigateurl);
             }
         }).catch(err => {
             form.reset();
