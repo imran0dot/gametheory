@@ -10,11 +10,10 @@ const HeaderSection = () => {
                 <div className="flex-none">
                     <ul className="menu menu-horizontal px-1">
                         <li>
-                                    <Link to="/login">Login</Link>
+                            <Link to="/login">Login</Link>
                         </li>
                         <li>
-                                    <Link to="/data">Data</Link>
-
+                            <Link to="/data">Data</Link>
                         </li>
                     </ul>
                 </div>
