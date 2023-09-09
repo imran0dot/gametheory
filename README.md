@@ -1,8 +1,20 @@
-# React + Vite
+# The Good Game Theory Task
+### Live Site: http://panda.detectiveseo.com/
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Panda Learning](https://64fc87bda6f3c46ef3076857--candid-kleicha-1cbe29.netlify.app/)
 
-Currently, two official plugins are available:
+# Introduction
+## Crafting a Beer Experience
+### Showcasing your skills in React.js, API integration, authentication, routing, styling, and deployment through a beer-related applicatio.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+
+# Key Features
+
+#### This is the react project
+#### ﻿Implemented Fake Authentication with React Context;
+##### user: user
+##### pass: 1234
+#### Fetch and Display Beers with Infinite Scroll Implemented
+#### Smoth User experience.
+#### Used Tailwind css

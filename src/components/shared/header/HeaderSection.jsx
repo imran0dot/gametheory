@@ -13,7 +13,7 @@ const HeaderSection = () => {
                             <Link to="/login">Login</Link>
                         </li>
                         <li>
-                            <Link to="/shop">Data</Link>
+                            <Link to="/beers">Beers</Link>
                         </li>
                     </ul>
                 </div>
