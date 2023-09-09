@@ -1,7 +1,7 @@
 # The Good Game Theory Task
-### Live Site: http://panda.detectiveseo.com/
+### Live Site: https://64fc87bda6f3c46ef3076857--candid-kleicha-1cbe29.netlify.app/
 
-![Panda Learning](https://64fc87bda6f3c46ef3076857--candid-kleicha-1cbe29.netlify.app/)
+![The Good Game Theory Task](https://i.ibb.co/VBzHntP/Screenshot-65.png)
 
 # Introduction
 ## Crafting a Beer Experience
